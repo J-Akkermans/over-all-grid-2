@@ -1,12 +1,11 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 
-
 .wrapper {
-  width: 1100px;
   display: grid;
   grid-template-columns: auto 75px 275px 175px 175px 275px 75px auto;
   grid-template-rows: 115px 425px 450px 50px auto;
@@ -26,12 +25,20 @@
 }
 
 .nav-links {
+  margin-top: 50px;
+  margin-left: 70x;
   grid-row: 1;
-  grid-column: 5/7;
+  grid-column: 4/7;
 }
 
 .nav-links ul li {
   display: inline-block;
+  margin-left: 30px;
+}
+
+.nav-links ul li a{
+  text-decoration: none;
+  color: #395167;
 }
 
 .banner-img {
@@ -49,12 +56,16 @@
 }
 
 .banner-txt {
+  font-size: 14px;
+  line-height: 20px;
   grid-row: 2;
   grid-column: 6;
 }
 
 .banner-txt h1 {
   margin-top: 30px;
+  font-size: 26px;
+    line-height: 30px;
 }
 
 .banner-txt>p {
@@ -65,9 +76,22 @@
   padding-top: 20px;
 }
 
+.card-header-style{
+  font-size: 20px;
+  line-height: 22px;
+}
+.card-p-style{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .card-1 {
   grid-row: 3;
   grid-column: 3;
+  font-size: 14px;
+  line-height: 20px;
+ 
+  
 }
 
 .card-2 {
@@ -75,11 +99,15 @@
   grid-row: 3;
   grid-column: 4/ span 4;
   width: 300px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .card-3 {
   grid-row: 3;
   grid-column: 6;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 footer {
